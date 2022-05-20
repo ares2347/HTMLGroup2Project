@@ -1,0 +1,32 @@
+.caphe{
+    padding-left: 200px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+.h{
+    font-size: 60px;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cf{
+    background-image: url("../media/cafe.jpg");
+}
+.kem{
+    padding-left: 40px;
+    padding-right: 260px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+}
+#k{
+    background-image: url("../media/kem.jpg");
+}
+#t{
+    background-image: url("../media/tra.jpg");
+}
