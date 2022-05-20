@@ -25,6 +25,7 @@ a{
 }
 a:hover{
     color: #111111;
+    text-decoration: underline;
 }
 /*reset css: ul*/
 ul{
