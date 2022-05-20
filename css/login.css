@@ -1,0 +1,19 @@
+
+.content-login {
+    width: 400px;
+    padding: 40px;
+    font-family: Roboto;
+    background: cadetblue;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px brown;
+    margin-top: 150px;
+    margin-left: 465px;
+    text-align: center;
+    font-weight: normal;
+}
+#x{
+    background-image: url("../media/cafechinh.jpeg");
+    background-size: cover;
+}
+
