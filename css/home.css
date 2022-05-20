@@ -9,6 +9,10 @@ nav ul{
     padding:0;
     margin: 0;
 }
+nav ul li a{
+    text-decoration: none;
+    color: #333333;
+}
 nav ul li{
     position: relative;
     cursor: pointer;
