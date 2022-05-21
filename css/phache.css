@@ -1,0 +1,18 @@
+.columns-left .sidebar{
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 30px;
+    width: calc(33.33% - 100px);
+}
+.columns-left .content{
+    padding: 30px;
+    margin-right: 40px;
+    width: calc(66.67% - 80px);
+}
+h1{
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+    line-height: 30px;
+}
