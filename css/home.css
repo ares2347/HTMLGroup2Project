@@ -3,7 +3,7 @@
 nav{
     background-color: #111111;
     color: #f0f0f0;
-    font-size: 18px;
+    font-size: 14px;
 }
 nav ul{
     padding:0;
@@ -11,24 +11,24 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    color: #333333;
+    color: #f0f0f0;
 }
 nav ul li{
     position: relative;
     cursor: pointer;
     height: 50px;
-    width: 200px;
+    width: 120px;
     float:right;
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
     border-right: rgba(255, 255, 255, 0.5) 1px solid ;
 }
 nav ul li:last-child{
     float: left;
-    width: 150px;
+    width: 80px;
     margin-left: 0;
     padding-top: 8px;
-    font-size: 25px;
+    font-size: 20px;
     border-right: none;
 }
 nav ul li:first-child{
@@ -36,6 +36,10 @@ nav ul li:first-child{
 }
 nav ul li:hover{
     background-color: #e7e7e7;
+    color: #333333;
+}
+nav ul li:hover a{
+    text-decoration: none;
     color: #333333;
 }
 .nav-signup{
