@@ -1,29 +1,51 @@
 #button{
     background-color: #111111;
     color: white;
+    margin-left: 40%;
+    margin-top: 25px;
 }
-.ceart{
-    border: 2px solid red;
+.container{
+    border: red solid 2px;
     width: 500px;
     height: 500px;
+    line-height: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     background-color: #d6a34a;
-    font-family: Roboto;
-    border-radius: 20px;
     box-shadow: 10px 10px 10px 10px;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 360px;
+    border-radius: 20px;
+}
+#d1{
+    margin-left: 50px;
+}
+#d2{
+    margin-left: 51px;
+}
+#d3{
+    margin-left: 36px;
+}
+#d4{
+    margin-left: 84px;
+}
+input{
+    width: 70%;
+    margin-top: 25px;
+}
+#d5{
+    margin-left: 27px;
+}
+#d6{
+   margin-left:56px ;
+}
+.Title{
+    margin-left: 30%;
+}
+.ceart{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+#nen{
+    background-image: url("../media/cf2622.jpg");
+    background-size: cover;
+}
 
-}
-.cc input{
-    width: 300px;
-    height: 30px;
-    margin-top: 20px ;
-}
-.cc label{
-    float: left;
-}
-.cc{
-    mar
-}

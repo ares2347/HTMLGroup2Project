@@ -14,3 +14,8 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+button{
+    background-color: black;
+    color: white;
+}
+
