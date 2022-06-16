@@ -1,70 +1,96 @@
 
-/*nav*/
-nav{
-    background-color: #111111;
-    color: #f0f0f0;
+/*main*/
+/*carousel*/
+.main{
+    background-color: #1a1a1a;
+}
+.owl-carousel:hover{
+    opacity: 0.8;
+}
+.carousel-block{
+    display: flex;
+    flex-direction: column-reverse;
+    color: #e7e7e7;
+}
+.carousel-block h1, .carousel-block p{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    text-align: center;
+}
+.carousel-block h1{
+    padding: 30px 0 5px 0;
+    font-size: 30px;
+}
+.carousel-block p{
+    padding: 5px 0 30px 0;
     font-size: 14px;
 }
-nav ul{
-    padding:0;
-    margin: 0;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #f0f0f0;
-}
-nav ul li{
-    position: relative;
-    cursor: pointer;
-    height: 50px;
-    width: 120px;
-    float:right;
-    padding-top: 15px;
-    text-align: center;
-    border-right: rgba(255, 255, 255, 0.5) 1px solid ;
-}
-nav ul li:last-child{
-    float: left;
-    width: 80px;
-    margin-left: 0;
-    padding-top: 8px;
+/*content*/
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
     font-size: 20px;
-    border-right: none;
 }
-nav ul li:first-child{
-    border-right: none;
-}
-nav ul li:hover{
+.container.even{
     background-color: #e7e7e7;
     color: #333333;
 }
-nav ul li:hover a{
+.container.even a{
+    background-color: #333333;
+    color: #e7e7e7;
     text-decoration: none;
-    color: #333333;
 }
-.nav-signup{
-    display: none;
-    width: 250px;
-    position: absolute;
-    top: 65px;
-    right: 30px;
+.container.even a:hover{
+    opacity: 0.7;
+    /*text-decoration: none;*/
+}
+.container.odd a:hover{
+    opacity: 0.7;
+    /*text-decoration: none;*/
+}
+.container.odd{
+    background-color: #333333;
+    color: #e7e7e7;
+}
+.container.odd a{
     background-color: #e7e7e7;
-    padding: 10px 30px;
+    color: #333333;
+    text-decoration: none;
 }
-.nav.arrow-top {
-    margin-top: 40px;
+.container.even p{
+    animation: fadeInLeft 1500ms ;
 }
-.nav-signup.arrow-top:after {
-    content: " ";
-    position: absolute;
-    right: 30px;
-    top: -15px;
-    border-top: none;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-bottom: 15px solid #e7e7e7;
+.container.odd p{
+    animation: fadeInRight 1500ms ;
 }
-nav ul li:hover .nav-signup {
-    display: block;
+.content p{
+    margin: 100px 200px;
 }
-/*main*/
+.btn{
+    justify-content: center;
+    align-items: center;
+}
+.btn a{
+    padding: 30px 100px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+@keyframes fadeInRight {
+    from{
+        transform: translateX(200%);
+    }to{
+        transform: translateX(0);
+         }
+}
+@keyframes fadeInLeft {
+    from{
+        transform: translateX(-200%);
+    }to{
+         transform: translateX(0);
+     }
+}
+/*footer*/
+
+
+
