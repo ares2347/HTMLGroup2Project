@@ -7,30 +7,20 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="lib/css/all.css">
+    <link rel="stylesheet" href="css/css/all.css">
     <link rel="stylesheet" href="css/ceartacc.css">
 </head>
 <body>
-<header class="section header">
-    <nav class="section nav">
-        <ul>
-            <li><a href="login.html">Đăng nhập</a></li>
-            <li><a href="">Giỏ hàng</a></li>
-            <li><a href="phache.html">Công thức</a></li>
-            <li><a href="sanpham.html">Sản phẩm</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="">Đặt hàng</a></li>
-            <li><a href="home.html" id="nav-logo">Cafe Near You</a></li>
-        </ul>
-    </nav>
-</header>
-    <div class="body section">
+    <header class="section header">
+        <h1>Cafe Near You</h1>
+    </header>
+    <div class="body section" id="nen">
         <div class="container">
             <article class="ceart">
                 <form method="get" action="#">
-                    <div class="cc">
+                    <div class="Title">
                         <label>Title(optional)</label>
-                        <select name="city">
+                        <select name="Grende">
                             <option value="">Please Select</option>
                             <option value="mr">Mr</option>
                             <option value="mrs">Mrs</option>
@@ -40,35 +30,35 @@
                             <option value="dr">Dr</option>
                         </select>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>First name</label>
-                        <input type="text" name="firstname" placeholder="First man" required/>
+                        <input id="d1" type="text" name="firstname" placeholder="First mane" required/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Last name</label>
-                        <input type="text" name="lastname" placeholder="Last name" required/>
+                        <input id="d2" type="text" name="lastname" placeholder="Last name" required/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Date of Birht</label>
-                        <input type="date" name="birthday" placeholder="Date of Birh..."/>
+                        <input id="d3" type="date" name="birthday" placeholder="Date of Birh..."/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Email</label>
-                        <input type="email" name="Email" placeholder="Email" required/>
+                        <input id="d4" type="email" name="Email" placeholder="Email" required/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Confirm Email</label>
-                        <input type="email" name="Email" placeholder="Email" required/>
+                        <input id="d5" type="email" name="Email" placeholder="Email" required/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Password</label>
-                        <input type="password" name="pwd" placeholder="Password..." required/>
+                        <input id="d6" type="password" name="pwd" placeholder="Password..." required/>
                     </div>
-                    <div class="cc">
+                    <div>
                         <label>Confirm Password</label>
-                        <input type="password" name="pwd" placeholder="Password..." required/>
+                        <input id="d7" type="password" name="pwd" placeholder="Password..." required/>
                     </div>
-                    <div class="cc" >
+                    <div>
                         <button id="button" type="submit">Creat Account</button>
                     </div>
                 </form>
