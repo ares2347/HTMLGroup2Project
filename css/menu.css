@@ -12,7 +12,7 @@
 .price{
     float: right;
     margin-right: 10px;
-    padding: 20px;v
+    padding: 20px;
 }
 .columns-left-1{
     background-color: burlywood;
@@ -25,4 +25,33 @@
     width: 1200px;
     height: 500px;
     font-size: 20px ;
+=======
+    margin-left: 200px;
+    padding: 20px;
+}
+.name p{
+    padding: 5px;
+}
+.price{
+    float: right;
+    margin-right: 200px;
+    padding: 20px;
+}
+.price p{
+    padding: 5px;
+}
+.columns-left-1{
+    background-color: burlywood;
+    width: 100%;
+    height: 600px;
+    font-size: 20px ;
+    border: 2px solid black;
+}
+.columns-left-2{
+    background-color: burlywood;
+    width: 100%;
+    height: 600px;
+    font-size: 20px ;
+    border: 2px solid black;
+>>>>>>> 32ecc27 (menu(test))
 }
