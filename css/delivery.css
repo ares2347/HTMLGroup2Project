@@ -1,0 +1,285 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 2500px;
+}
+.container{
+    margin: 0px 189px;
+    padding: 0px 15px;
+}
+section.header {
+    width: 100%;
+    height: 70px;
+    top: 0;
+    position: relative;
+    margin-bottom: -13px;
+    background-color: chocolate;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    line-height: 56px;
+    color: white;
+}
+.row button{
+    margin-right: 10px;
+    border: 0px solid chocolate;
+    border-radius: 7px;
+    background-color: chocolate;
+    color: black;
+    margin-top: 8px;
+    padding: 8px 11px;
+}
+.row button:hover{
+    cursor: pointer;
+}
+.row .logo{
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+}
+ul.pay{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+ul.pay li{
+    margin: 10px 30px;
+}
+i.ti{
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 100%;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.ti-shopping-cart{
+    background-color: chocolate;
+    color: white;
+}
+.columns-right{
+    margin: 20px 0px;
+}
+section.step-checkout-status.sticky-top.on-sticky {
+    width: 100%;
+    height: 70px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 40%);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+article.content.groups{
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: 50px;
+    padding-left: 35px;
+    padding-top: 35px;
+    /*width: 55%;*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 2590px;
+}
+.group-form{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.group-form input[type="text"]{
+    width: 75%;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid chocolate;
+    border-radius: 4px;
+    display: inline-block;
+}
+.group-title.sticky-top {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: chocolate;
+}
+.item{
+    height: 200px;
+}
+.item-img{
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+.item-description{
+    display: inline-block;
+    float: right;
+    width: 80%;
+}
+.product-name{
+    margin: 5px 0;
+}
+.price{
+    margin: 5px 0;
+    color: chocolate;
+}
+.options ul{
+    padding: 0;
+    display: flex;
+}
+.options button {
+    margin-right: 10px;
+    border: 1px solid chocolate;
+    border-radius: 7px;
+    background-color: white;
+    color: chocolate;
+    margin-top: 8px;
+    padding: 8px 11px;
+}
+.options button:hover{
+    cursor: pointer;
+    background-color: chocolate;
+    color: black;
+}
+/*.options ul li {*/
+/*    float: left;*/
+/*    display: inline-block;*/
+/*    padding: 5px 10px;*/
+/*    margin: 15px 3px 15px 0;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*}*/
+/*.options a:hover{*/
+/*    color: white;*/
+/*    display: inline-block;*/
+/*    background-color: chocolate;*/
+/*    text-decoration: none;*/
+/*}*/
+aside.sidebar {
+    height: 1000px;
+    background-color: white;
+    margin-right: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.modal-login {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal-login.open{
+    display: flex;
+}
+.modal-animation{
+    animation: modalFadeIn ease 1s;
+}
+.modal-container {
+    background: white;
+    width: 498px;
+    min-height: 345px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.title-modal {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: chocolate;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+.form-group-modal{
+    padding-bottom: 15px;
+}
+.form-group-modal input[type="text"] {
+    display: block;
+    width: 100%;
+    height: 33px;
+    border: solid #ddd;
+    border-width: 0 0 1px;
+    outline: none!important;
+    /* font-weight: 700; */
+    letter-spacing: .5px;
+    text-align: center;
+}
+.bem {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.bem a{
+    cursor: pointer;
+    color: #23b7e5;
+}
+.actions.text-center {
+    text-align: center;
+    margin: 20px 0px;
+}
+button.btn-text-white {
+    width: 100%;
+    height: 36px;
+    border-radius: 6px;
+    background-color: chocolate;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.text-center{
+    font-size: 16px;
+    margin: 8px;
+}
+button.btn-text-white:hover{
+    opacity: 0.9;
+}
+.modal-register {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.modal-register.open{
+    display: flex;
+}
+aside.sidebar {
+    height: 2590px;
+}
+.thucdon{
+    font-size: 18px;
+    color: chocolate;
+    margin-left: 20px;
+}
+.thucdon ul{
+    padding-right: 20px;
+}
+ a:hover {
+    color: #111111;
+    text-decoration: none;
+    color: chocolate;
+}
+.advertisement{
+    height: 280px;
+    background-color: #aaaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: chocolate;
+    margin: 30px 0px;
+}
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(-183px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

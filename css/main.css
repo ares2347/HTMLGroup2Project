@@ -41,10 +41,10 @@ img{
     float: left;
     width: 100%;
 }
-/*.container{*/
-/*    width: 1200px;*/
-/*    margin: 0 auto;*/
-/*}*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 .columns-right .content{
     float: left;
     width: 66.67%;
